@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #0a2e4f;
+}
+
+/* Header */
+header {
+  background: #ffffff;
+  border-bottom: 2px solid #e6f2fa;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #0a4fa3;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #1da1f2, #0a4fa3);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #0a4fa3;
+}
+
+.light {
+  background: #f4f9fd;
+}
+
+/* Services */
+.services {
+  list-style: none;
+  max-width: 400px;
+  margin: auto;
+}
+
+.services li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contact */
+a {
+  color: #1da1f2;
+}
+
+/* Footer */
+footer {
+  background: #0a4fa3;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
